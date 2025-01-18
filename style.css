@@ -3,16 +3,19 @@
   padding: 0;
 }
 body {
-  background-color: #264653;
   color: white;
   font-family: "Playwrite VN";
+  background-image: url("img2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 nav {
+  margin: 25px 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 111px;
-  background-color: #2a9d8f;
+  
 }
 
 nav ul {
@@ -26,6 +29,7 @@ nav ul li {
 img {
   border-radius: 100%;
   scale: 0.75;
+  margin: 0 0 0 50px;
 }
 nav ul li a {
   text-decoration: none;
@@ -42,19 +46,27 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   margin: 80px 50px;
+  
 }
 .firstsection > div {
   width: 30%;
 }
 .leftsection {
-  /* background-color: red; */
+  color:rgb(147, 63, 163);
   font-size: 2.5rem;
 }
 .rightsection img {
-  width: 80%;
+  width: 100%;
+  scale: 1.25;
 }
 .purple {
-  color: rgb(41, 157, 151);
+  color:rgb(150, 52, 255);
   font-family:Satisfy;
   font-size: 4.5rem;
 }
+@media (max-width: 1000px) {
+*{
+    font-size: 20px !important;
+}
+} 
+
