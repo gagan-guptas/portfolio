@@ -208,4 +208,21 @@ textarea::placeholder {
   * {
     font-size: 20px !important;
   }
+  nav {
+    flex-direction: row;
+  }
+
+  nav ul {
+    text-align: center;
+    width: 100%;
+  }
+
+  nav ul li {
+    margin:0px 10px; /* Stack items with spacing */
+  }
+
+  nav ul li a {
+    font-size: 0.75rem !important; /* Maintain readability */
+  }
+
 }
